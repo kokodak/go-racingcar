@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/kokodak/go-racingcar/view"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	carNames := view.GetCarNames()
+	fmt.Println(carNames)
 }
